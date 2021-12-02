@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Proyecto Wallp</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+</head>
+
+<body>
+	<!--Abertura de la pagina-->
+	<div class="lds-roller loader" id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+	<!--Primer imagen con descripcion-->
+	<div class="contenedor">
+		<main class="contenido-principal">
+			<img src="img/proyecto1.jpeg" alt="Proyecto de aplicacion de operaciones basicas" class="contenido-principal__imagen" width="400px">
+			<div class="contenido-principal__contenedor">
+				<h1 class="contenido-principal__titulo">Wallp</h1>
+				<p class="contenido-principal__resumen">
+					Wallp es una aplicación de fondos de pantalla de alta calidad para darle un gran toque de personalización a tu télefono
+				</p>
+				<p class="contenido-principal__resumen">
+					<a class="descargar__app" href="https://drive.google.com/file/d/1gyYgNbYurT0o8j8aQNIEUYZPO91R2KD6/view?usp=sharing">Descargar aplicación</a>
+				</p>
+			</div>
+		</main>
+		<!--Galeria de imagenes-->
+		<div class="carousel">
+			<div class="carousel__contenedor">
+				<button aria-label="Anterior" class="carousel__anterior">
+					<i class="fas fa-chevron-left"></i>
+				</button>
+
+				<div class="carousel__lista">
+					<div class="carousel__elemento">
+						<img src="img/Presentacion-walp-1.png" alt="Principal">
+						<p></p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="img/Presentacion-wallp-2.png" alt="Sumas">
+						<p></p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="img/Presentacion-wallp-3.png" alt="Suams moderadas">
+						<p></p>
+					</div>
+					<div class="carousel__elemento">
+						<img src="img/Presentacion-wallp-4.png" alt="Descargar">
+						<p></p>
+					</div>
+
+					</div>
+					
+				<button aria-label="Siguiente" class="carousel__siguiente">
+					<i class="fas fa-chevron-right"></i>
+				</button>
+			</div>
+
+			<div role="tablist" class="carousel__indicadores"></div>
+		</div>
+	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
