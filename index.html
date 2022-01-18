@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--Transicion de abertura de pagina-->
+    <div class="lds-roller loader" id="loader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+    <header class="hero">
+        <nav class="nav container">
+            <img src="asset/laptop.svg" alt="laptop" class="nav__logo">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Portafolio</a></li>
+                <li class="nav__item"><a href="#proyectos" class="nav__link">Proyectos</a></li>
+                <li class="nav__item"><a href="#habilidades" class="nav__link">Habilidades</a></li>
+                <li class="nav__item"><a href="#contacto" class="nav__link">Contacto</a></li>
+            </ul>
+            <figure class="nav__menu">
+                <img src="img/menu.svg" alt="" class="nav__icon">
+            </figure>
+        </nav>
+
+        <section class="hero__main container">
+            <div class="hero__text">
+                <figure>
+                    <img class="imagen__portada" src="img/logo.png" alt="logo">
+                </figure>
+                <h1 class="hero__title">Soy <span class="typed"></span></h1>
+            </div>
+        </section>
+
+        <div style="height: 150px; overflow: hidden" class="hero__waves">
+            <svg
+                viewBox="0 0 500 150"
+                preserveAspectRatio="none"
+                style="height: 100%; width: 100%">
+            <path
+                d="M0.00,49.98 C160.55,149.50 365.40,-67.59 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #fff"
+            ></path>
+            </svg>
+        </div>
+    </header>
+
+    <section id="proyectos">
+        <h2 class="title__proyects">Proyectos</h2>
+        <div class="proyects">
+            <div class="proyects__descrition">
+                <img src="img/aplicación.jpg" alt="proyecto" class="proyects__img">
+                <p class="txt__proyects">Aplicación de fondos de pantalla de alta calidad <br> <br>
+                    <a href="https://drive.google.com/file/d/1yIWLE6I_6DSLH46oe2uihdnogn-aMrb5/view?usp=drivesdk" class="link__proyect1">ver proyecto</a>
+                </p><br>
+                <img src="img/icon-java.png" alt="java">
+                <img src="img/icon-firebase.png" alt="firebase">
+            </div>
+
+            <div class="proyects__descrition">
+                <img src="img/web.jpg" alt="proyecto" class="proyects__img">
+                <p class="txt__proyects">Sitio web donde puedes contactarme y/o seguirme <br> <br>
+                    <a href="https://alanst11.github.io" class="link__proyect1">ver proyecto</a>
+                </p> <br>
+                <img src="img/icon-html.png" alt="html">
+                <img src="img/icon-css.png" alt="css">
+                <img src="img/icon-javascrip.png" alt="js">
+            </div>
+
+            <div class="proyects__descrition">
+                <img src="img/Frases-suits.png" alt="proyecto" class="proyects__img">
+                <p class="txt__proyects">Pagina web estatica de frases de la serie suits de Netflix <br> <br>
+                    <a href="https://frases-suits.netlify.app/" class="link__proyect1">ver proyecto</a>
+                </p> <br>
+                <img src="img/icon-html.png" alt="html">
+                <img src="img/icon-css.png" alt="css">
+                <img src="img/icon-javascrip.png" alt="js">
+            </div>
+
+            <div class="proyects__descrition">
+                <img src="img/Datos-japon.jpg" alt="proyecto" class="proyects__img">
+                <p class="txt__proyects">Pagina web estatica de datos sobre Japón te ayudara a conocer este país <br> <br>
+                    <a href="https://datos-japon.netlify.app/" class="link__proyect1">ver proyecto</a>
+                </p> <br>
+                <img src="img/icon-html.png" alt="html">
+                <img src="img/icon-css.png" alt="css">
+                <img src="img/icon-javascrip.png" alt="js">
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <h2 class="title__skills">Habilidades</h2>
+        <div class="skills">
+            <div class="imagenes__skills">
+                <img src="img/java.png" alt="java" class="img__skilss">
+            </div>
+
+            <div class="imagenes__skills">
+                <img src="img/python.png" alt="python" class="img__skilss">
+            </div>
+
+            <div class="imagenes__skills">
+                <img src="img/html.png" alt="html" class="img__skilss">
+            </div>
+
+            <div class="imagenes__skills">
+                <img src="img/css.png" alt="css" class="img__skilss">
+            </div>
+
+            <div class="imagenes__skills">
+                <img src="img/javascrip.png" alt="css" class="img__skilss">
+            </div>
+
+            <div class="imagenes__skills">
+                <img src="img/firebase.png" alt="css" class="img__skilss">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container__form">
+        <form class="form" id="form">
+            <div class="title">Contacto</div>
+            <div class="subtitle">Aqui puedes enviarme un correo</div>
+            <div class="input-container ic1">
+                <input name="nombre" id="firstname" class="input" type="text" required placeholder=" "/>
+                <div class="cut"></div>
+                <label for="firstname" class="placeholder">Nombre</label>
+            </div>
+            <div class="input-container ic2">
+                <input name="asunto" id="lastname" class="input" type="text" required placeholder=" "/>
+                <div class="cut"></div>
+                <label for="asunto" class="placeholder">Asunto</label>
+            </div>
+            <div class="input-container ic2">
+                <input name="mensaje" id="email" class="input" type="text" required placeholder=" "/>
+                <div class="cut cut-short"></div>
+                <label for="mensaje" class="placeholder">Mensaje</label>
+            </div>
+                <button type="submit" class="submit" >Enviar</button>
+            </div>
+        </form>
+        <a href="mailto:infoalanst@gmail.com" id="trucaso" style="opacity: 0;">mail</a>
+
+    </section>
+
+    <footer id="contacto">
+        <div class="footer__contacto">
+            <div class="footer_imgContacto">
+                <p class="gmail">infoalanst@gmail.com</p>
+
+                <a href="https://www.facebook.com/Alan.St11/"><img src="asset/facebook.svg" alt="bxl-facebook-square" class="Red__social"></a>
+                <a href="https://github.com/AlanSt11"><img src="asset/github.svg" alt="bxl-facebook-square" class="Red__social"></a>
+
+                <p class="derechos">&copy; Copyright Alan St All Rights Reserved</p>
+                <p class="derechos">Designed by Alan St</p>
+                <div class="fecha" id="fecha"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
