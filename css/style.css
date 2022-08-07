@@ -85,10 +85,12 @@ body{
 
 .fa-solid{
     color: var(--color-primary);
+    font-size: calc(.7em + .7vw);
 }
 
 .bx{
     color: var(--color-primary);
+    font-size: calc(.7em + .7vw);
 }
 /* ============================================
                     PORTADA
@@ -575,7 +577,7 @@ button:hover .right {
     align-items: center;
     border-radius: 50%;
     position: fixed;
-    bottom: 50px;
+    bottom: 90px;
     right: 15px;
     cursor: pointer;
     border: 4px solid transparent;
@@ -732,6 +734,8 @@ i.bx{
         width: 100%;
         position: fixed;
         bottom: 0;
+        right: 0;
+        left: 0;
         top: 90%;
         flex-direction: column-reverse;
         padding: 1rem;
@@ -793,6 +797,15 @@ i.bx{
         align-items: center;
         list-style: none;
         text-align: center;
+    }
+
+    .fa-house,
+    .fa-user,
+    .fa-file,
+    .fa-briefcase,
+    .fa-image,
+    .bxs-send{
+        margin-top: 10px;
     }
     .link-menu-responsive{
         text-decoration: none;
