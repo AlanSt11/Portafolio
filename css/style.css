@@ -235,6 +235,7 @@ body{
     transition: opacity .6s .9s;
     --transform: translateY(-100vh);
     --transition: transform .8s;
+    z-index: 100000;
 }
 
 .modal--show{
