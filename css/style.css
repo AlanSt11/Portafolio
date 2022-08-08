@@ -176,6 +176,7 @@ body{
 .active-skills-backend,
 .active-skills-desing{
     display: flex;
+    flex-wrap: wrap;
 }
 
 
